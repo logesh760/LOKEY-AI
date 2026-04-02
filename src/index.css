@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --dark-mode: selector;
+  --color-primary: #6366f1;
+  --color-secondary: #a855f7;
+  --radius-2xl: 1rem;
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/70 dark:bg-zinc-900/70 backdrop-blur-md border border-white/20 dark:border-zinc-800/50;
+  }
+  
+  .glass-card {
+    @apply bg-white/40 dark:bg-zinc-900/40 backdrop-blur-xl border border-white/20 dark:border-zinc-800/30 shadow-xl;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400;
+  }
+}

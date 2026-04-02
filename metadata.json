@@ -1,0 +1,7 @@
+{
+  "name": "LOKEY-AI",
+  "description": "LOKEY-AI: The premium AI-powered personal development mentor and coach for students. Grow academically, personally, and professionally with personalized guidance and strategy.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
